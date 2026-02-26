@@ -1,0 +1,215 @@
+/* *{
+        color: #F2F3EB;
+
+} */
+
+footer{
+	background-color: #EF4444;
+    padding: 50px 0;
+    /* border-top: 3px groove #D9C8B4; */
+    color: #F2F3EB;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    
+    color: #F2F3EB;
+}
+
+
+/* footer */
+
+footer #media-none{
+    display: none;
+    margin-top: 10px;
+}
+
+#fa:hover #media-none{
+    display: inline-flex;
+}
+
+#Etec-footer p{
+    display: none;
+}
+
+#Etec-footer:hover p{
+    display: flex;
+    font-size: 2vh;
+    color: black;
+}
+
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 5vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-col .a{
+    color: #F2F3EB;
+    text-decoration: none;
+}
+
+.footer-col b:hover{
+    text-decoration: underline red
+}
+
+.footer-col .a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-col h6{
+    font-size: 22px;
+    color: #F2F3EB;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    /*      font-family:"Spicy Rice", serif, Arial, Helvetica, sans-serif; */
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F2F3EB;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #F2F3EB;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+
+/* youtube */
+
+.footer-col .medias-socias .yt:hover{
+    color: red;
+}
+
+/* Whats */
+
+.footer-col .medias-socias .whats:hover{
+    color: greenyellow;
+}
+
+/* Insta */
+
+.footer-col .medias-socias .insta:hover{
+    color: orangered;
+}
+
+/* Github */
+
+.footer-col .medias-socias .git:hover{
+    color: purple;
+}
+
+
+
+.footer-col .medias-socias a:hover{
+    color: #76b5c5;
+    background-color: white;
+}
+
+
+/* Contato inicio */
+
+.contatodiv{
+    border-bottom: 2px red;
+    color: #ffff;
+    justify-content: center;
+}
+
+.contatodiv a{
+    text-decoration: none;
+    color: white;
+}
+
+#bodycontato{
+    background-color: black;
+}
+
+/* Contato fim */
+
+
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+/* @media (max-width: 767.11px) {
+    #site{
+        
+        width: 100%;
+        
+    }
+    
+} */
+
+@media (max-width: 600px) {
+
+    #footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-col{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+    #footer{
+        grid-template-columns: 1fr;
+    }
+    
+}

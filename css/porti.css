@@ -1,0 +1,327 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	font-family: 'Poppins', sans-serif;
+ 	background-color: #F3F4F6;
+ 	color: #1F2937;
+ 	line-height: 1.6;
+
+ }
+
+ #navbar{
+    grid: nav;
+	background-color: #EF4444;
+    
+    color: #F2F3EB;
+}
+
+.voltar-img{
+	max-height: 5vh;
+	max-width: 5vh;
+	position: fixed;
+	top: 1.5vh;
+	left: 1.5vh;
+	rotate: -90deg;
+}
+
+
+ #back {
+ 	background-image: url(../img/a2.svg);
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-color: #EF4444;
+ }
+
+
+
+ section {
+ 	min-height: 100vh;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ 	padding: 40px 20px;
+ 	text-align: justify;
+ }
+
+ h1 {
+ 	font-size: 2.8rem;
+ 	font-weight: 600;
+ 	margin-bottom: 20px;
+ 	color: #B91C1C;
+ 	text-align: center;
+ }
+
+ h2,
+ h3 {
+ 	color: #B91C1C;
+ }
+
+ p {
+ 	font-size: 1.1rem;
+ 	max-width: 700px;
+ 	margin: 0 auto 30px;
+ }
+
+ /* div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+ } */
+
+ #subir {
+ 	position: fixed;
+ 	right: 1.5vh;
+ 	bottom: 3vh;
+ }
+
+ #subir img {
+ 	max-width: 5vh;
+ }
+
+ .btn {
+ 	background-color: #EF4444;
+ 	color: #fff;
+ 	border: none;
+ 	padding: 14px 32px;
+ 	font-size: 1rem;
+ 	font-weight: 500;
+ 	border-radius: 8px;
+ 	cursor: pointer;
+ 	transition: background 0.3s ease;
+ 	text-decoration: none;
+	margin: 2vh;
+ }
+
+ .btn:hover {
+ 	background-color: #DC2626;
+ }
+
+ #botoes {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ }
+
+
+
+ #botoes button {
+ 	margin-left: 0.5vh;
+ 	margin-right: 0.5vh;
+
+ }
+
+ .redes {
+ 	display: flex;
+ 	justify-content: center;
+ 	gap: 20px;
+ 	margin-bottom: 25px;
+ }
+
+ .redes a {
+ 	display: inline-block;
+ 	transition: transform 0.3s ease;
+ }
+
+ .redes a:hover {
+ 	transform: scale(1.1);
+ }
+
+ .redes img {
+ 	width: 32px;
+ 	height: 32px;
+ }
+
+ article {
+ 	background-color: white;
+ 	padding: 4vh;
+ 	margin-bottom: 32px;
+ 	border-radius: 10px;
+ 	max-width: 100%;
+ 	min-width: 50%;
+ }
+
+ article h2 {
+ 	background-color: #F2F3EB;
+ 	padding: 5px;
+ 	border-bottom: 2px solid;
+ 	margin-bottom: 2vh;
+ }
+
+ article img {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	max-width: 80vh;
+ 	/* max-height: 300px; */
+ 	margin-bottom: 2vh;
+ 	border-radius: 10px;
+ 	/* box-shadow: 0px 0px 9px 2px #76b5c5; */
+ }
+
+ article details {
+ 	margin-bottom: 2vh;
+ 	/* min-width: 700px; */
+ }
+
+ /* article .imgjs {
+ 	box-shadow: 0px 0px 9px 2px #c2c576;
+ }
+
+ article .imghtml {
+ 	box-shadow: 0px 0px 9px 2px #c5bd76;
+ }
+
+ article #imgphp {
+ 	box-shadow: 0px 0px 9px 2px #7f76c5;
+ 	border-radius: 70%;
+
+
+ } */
+
+ article img:hover {
+ 	transform: scale(1.06);
+ 	transition: 800ms;
+ }
+
+ ol,
+ ul {
+ 	color: #B91C1C;
+ 	margin-bottom: 2vh;
+ }
+
+ ol a {
+ 	color: #B91C1C;
+ 	text-decoration: none;
+ }
+
+ ul a {
+ 	color: #B91C1C;
+ 	text-decoration: none;
+ }
+
+ .lista {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+
+ /* PROJETOS */
+ /* N & N Conveniência */
+
+ #nen {
+ 	background-color: #000000;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ }
+
+ #nen h2 {
+ 	background-color: black;
+ 	color: #d63a7b;
+ }
+
+ #nen h3,
+ p,
+ ul,
+ li a {
+ 	color: #d63a7b;
+ }
+
+ #nen img {
+ 	height: 20%;
+ 	width: 30%;
+ }
+
+ #nen div {
+ 	margin: 4vh;
+ }
+
+ #cartaonen a {
+ 	background-color: #d63a7b;
+ 	color: white;
+ 	padding: 10px 20px;
+ 	border: none;
+ 	border-radius: 8px;
+ 	cursor: pointer;
+ 	z-index: 10;
+ 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ #cartaonen img {
+ 	min-width: 75%;
+ 	box-shadow: 0px 0px 10px 3px #d63a7b;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+ }
+
+ /* Modal */
+ /* Botão do modal */
+ .modal-btn {
+ 	background-color: #d63a7b;
+ 	color: white;
+ 	padding: 10px 20px;
+ 	border: none;
+ 	border-radius: 8px;
+ 	cursor: pointer;
+ 	z-index: 10;
+ 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ /* Modal - fundo escurecido */
+ .modal {
+ 	display: none;
+ 	position: fixed;
+ 	z-index: 1000;
+ 	left: 0;
+ 	top: 0;
+ 	width: 100vw;
+ 	height: 100vh;
+ 	background-color: rgba(0, 0, 0, 0.6);
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ /* Conteúdo do modal */
+ .modal-content {
+ 	/* background-color: rgb(2, 2, 2); */
+ 	border-radius: 12px;
+ 	padding: 0;
+ 	min-width: 50%;
+ 	max-width: 80%;
+ 	overflow: hidden;
+ 	position: relative;
+ 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+ }
+
+ /* Botão de fechar */
+ .close {
+ 	position: absolute;
+ 	top: 10px;
+ 	right: 20px;
+ 	color: #f80000;
+ 	font-size: 28px;
+ 	font-weight: bold;
+ 	cursor: pointer;
+ 	z-index: 10;
+ }
+
+ .close:hover {
+ 	color: #000;
+ }
+
+ /*  Fim - N & N Conveniência */
+
+
+ /* Fim - PROJETOS */
+
+ @media (max-width: 1000px) {
+ 	article img {
+ 		max-width: 100%;
+ 	}
+ }

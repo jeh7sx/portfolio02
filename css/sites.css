@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: white; */
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    'nav'
+    'header' 
+    'main'
+    'footer'
+    ;
+    grid-template-rows: 1fr;
+
+}
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    text-align: center;
+ 	color: #1F2937;
+ 	background-color: #F3F4F6;
+    padding: 10px 0px;
+}
+
+header h1{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    color: #EF4444;
+}
+
+main{
+ 	color: #1F2937;
+ 	background-color: #F3F4F6;
+}
+
+h2{
+    font-family: "Big Shoulders Stencil", sans-serif;
+
+}
+
+
+/* Abrir modal */
+
+/* Ktec */
+#KtecModal .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#KtecModal .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#KtecModal .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+/* Recessão */
+
+#recessaoModal .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#recessaoModal .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#recessaoModal .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+/* Mausoleu */
+#myModal .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#myModal .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#myModal .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+/* Recyle web */
+
+#myModal2 .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#myModal2 .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#myModal2 .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+#myModal3 .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#myModal3 .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#myModal3 .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+#myModal4 .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#myModal4 .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#myModal4 .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+#myModal5 .modal-dialog {
+    height: 90%; /* Definindo 80% da altura da tela */
+}
+
+#myModal5 .modal-content {
+    height: 100%; /* O conteúdo ocupa toda a altura do dialog */
+}
+
+#myModal5 .modal-body {
+    height: 100%; /* A altura do body ocupa todo o espaço disponível */
+    padding: 0; /* Removendo o padding do body para ocupar o espaço total */
+}
+
+/* Fim do abrir modal */
+
+
+
+#navbar{
+    grid: nav;
+	background-color: #EF4444;
+    
+    color: #F2F3EB;
+}
+
+
+
+#cardjeh{    
+    justify-content: right;
+}
+
+
+#site{
+    z-index: 0;
+    padding: 1vh;
+    width: auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    justify-content: right;
+    margin-top: 60px;
+    background-color: #EF4444;
+}
+
+#site2{
+    z-index: 0;
+    padding: 1vh;
+    width: auto;
+    border-radius: 10px;
+    position:absolute;
+    right: 20vh;
+    bottom:10px;
+    justify-content: right;
+    margin-top: 60px;
+    background-color: #EF4444;
+}
+
+#site a{
+    color: white;
+    text-decoration: none;
+}
+
+.modal-footer button{
+    z-index: 1;
+    border-radius: 10px;
+    position: relative;
+    right: 120px;
+    bottom: 0px;
+    justify-content: right;
+}
+
+.modal-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#site:hover{
+    background-color: #737373;
+    bottom: 20px;
+}
+
+#site2:hover{
+    background-color: #737373;
+    bottom: 20px;
+}
+
+.fundoverde{
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height:100%;
+    height: 70%; 
+    margin: 1% 1% 0 ;
+    
+}
+
+
+
+.fundoverde img{
+    display: inline-flex;
+    grid-area: img;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height:40vh;
+    border-radius: 8px;
+}
+
+
+
+.ptexto{
+    display: grid;
+    grid-template-areas: "h2" "p";
+}
+
+.fundoverde h2{
+    grid-area: h2;
+    /* color: rgb(23, 124, 84); */
+    color: #EF4444;
+    text-decoration: underline;
+   
+    font-size: 25px;
+}
+
+
+.fundoverde p{
+    grid-area: p;
+}
+
